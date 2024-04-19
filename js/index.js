@@ -6,7 +6,7 @@ gsap.from('.hero-text', {
     ease: "power4.out",
     scrollTrigger: {
         trigger: ".hero-container",
-        markers: true,
+
     }
 });
 
@@ -29,7 +29,7 @@ gsap.from('.col-4, .container', {
     scrollTrigger: {
         trigger: ".text-align-right",
         start: "top 50%",
-        markers: true,
+
     }
 });
 
@@ -40,7 +40,7 @@ gsap.from('.col-6', {
     scrollTrigger: {
         trigger: ".text-align-right",
         start: "top 50%",
-        markers: true,
+
     }
 });
 
